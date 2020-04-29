@@ -1,0 +1,91 @@
+main{ 
+  width:800px;
+  margin:0px auto;
+  position:relative;
+  display:flex;
+  flex-direction:column; }
+
+section{
+  position:absolute
+  display:flex}
+
+.anakin{
+  justify-content:flex-start;}
+
+head{
+  position:relative;
+  display:flex;}
+
+img{
+  display:flex;
+  position:relative;
+  top:-40px;
+  left:-300px;
+  margin-bottom: 0px;
+  height:400px;} 
+
+.header{
+  margin-bottom:0px;
+  font-size:35px;
+  font-weight:normal;
+}
+
+.bigger{
+  font-size:70px;
+  margin-top:0px;
+  text-transform:none;}
+
+.title{
+  display:box;
+  position: absolute;
+  top:170px;}
+
+.header,.bigger,blockquote,h1,h2,h3{
+  font-family: 'Abril Fatface', cursive, bold;
+  color:#200 grey;}
+
+blockquote{
+  font-size:50px;
+  background:#3C4348;
+  padding:40px 40px 40px 40px;
+  color:white;
+  display:flex;
+  position: relative;
+  left:-70px;
+  width:100%;}
+
+blockquote::before {
+  content:'\201C';
+  display:flex;
+  position:absolute;
+  top:-20px;
+  left:0px;
+  font-size:100px;}
+ 
+h1{
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  margin-bottom:60px}
+
+h2{font-family: 'Josefin Sans';
+  margin-bottom:3px;}
+
+
+h3{font-family: 'Merriweather';
+font-weight:italic;
+font-size:15px; 
+margin-top:0px;}
+  
+p,ul{margin-top:50px;
+margin-bottom:50px;}
+
+p,li{
+  font-family:'Josefin Sans',sans-serif;
+  font-size:20px;
+  color:#222 gray;
+  line-height: 170%;
+  list-style-type: square;}
+
+span{font-weight:bold;}
+hr{margin-bottom:60px;
+width:100%;}
